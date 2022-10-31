@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>aboutme</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<script>
+    function copymetamask() {
+      var copyText = document.getElementById("metamask");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      alert("Скопирован metamask: "+copyText.value);
+    } 
+    
+    </script>
+<body>
+</html>
+    <div class="text">Links</div> 
+
+    <a href="https://lolz.guru/members/2451679/" class="lolz">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Lolz
+    </a>
+    <a href="#" onclick="copymetamask()" class="metamask">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Meta
+        Mask
+    </a>
+    <a href="https://github.com/wOi1337" class="github">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        git
+        hub    
+    </a>
+    <a href="https://t.me/iOw1337" class="telegram">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Tele
+        Gram
+    </a>
+
+    <input type="text" value="0x1601BEaa7d92d7d91B4609e6d0085EAd51e16868" id="metamask" class="metamask_copy">
+</body>
+</html>

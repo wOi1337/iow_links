@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #050801;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+    /* filter: blur(2px); */
+   
+}
+
+.lolz {
+    color: #07ff03;
+}
+
+.lolz:hover {
+    background: #07ff03;
+    box-shadow: 0 0 5px #07ff03,
+                0 0 25px #07ff03,
+                0 0 50px #07ff03,
+                0 0 200px #07ff03;
+}
+
+.github {
+    color: #4078c0;
+}
+
+.github:hover {
+    background: #4078c0;
+    box-shadow: 0 0 5px #4078c0,
+                0 0 25px #4078c0,
+                0 0 50px #4078c0,
+                0 0 200px #4078c0;
+}
+
+.metamask {
+    color: #FFA500;
+}
+
+.metamask:hover {
+    background: #FFA500;
+    box-shadow: 0 0 5px #FFA500,
+                0 0 25px #FFA500,
+                0 0 50px #FFA500,
+                0 0 200px #FFA500;
+}
+
+.metamask_copy {
+    background-color: none;
+    background: none;
+    border: none;
+    text-decoration: none;
+    user-select: none;
+}
+
+.metamask_copy::selection {
+    color: none;
+    background: none;
+}
+
+a:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+a span{
+    position: absolute;
+    display: block;
+}
+
+.invisible {
+    display: none;
+}
+.telegram {
+    color: #00b3ff;
+}
+.telegram:hover {
+    background: #00b3ff;
+    box-shadow: 0 0 5px #00b3ff,
+                0 0 25px #00b3ff,
+                0 0 50px #00b3ff,
+                0 0 200px #00b3ff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..800,0..1,0..1,0..1&display=swap");
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.text {
+  font-family: "Recursive", monospace;
+  font-size: clamp(4em, 15vmin, 20em);
+  text-shadow: 0;
+  color: #ff00fb;
+  animation: anime 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate infinite;
+}
+
+@keyframes anime {
+  from {
+    font-variation-settings: "wght" 800, "slnt" 0;
+    text-shadow: -5px 10px 0px #ff00dd, -10px 20px 0px #c40099,
+      -15px 30px 0px #90007f;
+  }
+  to {
+    font-variation-settings: "wght" 300, "slnt" 15;
+    text-shadow: none;
+  }
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 140px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 7px 5px;
+	position: absolute;
+	z-index: 1;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -75px;
+	opacity: 0;
+	transition: opacity 0.3s;
+	font-size: 14px;
+}
+
+.tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
+
+.tooltip {
+    font-size: 80px;
+    color: #fff;   
+}
